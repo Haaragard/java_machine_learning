@@ -3,7 +3,6 @@ package application;
 import java.io.File;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
-import java.util.ArrayList;
 
 import characteristics_extrator.ExtractCaracteristicas;
 import javafx.fxml.FXML;
@@ -20,8 +19,6 @@ import weka.core.converters.ConverterUtils.DataSource;
 
 public class MainController {
 	double[] caracteristicas;
-
-	ArrayList<Double> characteriscts = new ArrayList<Double>();
 	
 	@FXML
 	private ImageView imageView;
